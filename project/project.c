@@ -15,7 +15,7 @@
 
 void init() {
   uart_dbg_init(&huart2);
-  printf("Progect path: git@github.com:KostaKanakis/zx_keyboard.git\n" \ 
+  printf("Progect path: git@github.com:KostaKanakis/zx_keyboard.git\n" 
           "USB keyboard to 8x8 matrix keyboard.\nVersion: "VERSION"\n");
   set_keys_callback(&prepare_keys);
   clear();
