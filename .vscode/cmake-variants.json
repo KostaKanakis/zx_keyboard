@@ -1,0 +1,348 @@
+{
+  "buildType": {
+    "default": "Debug F105R8",
+    "description": "build variants",
+    "choices": {
+      "Debug F105R8": {
+        "short": "Debug F105R8",
+        "buildType": "Debug",
+        "settings" : {
+          "CMAKE_TOOLCHAIN_FILE": "tools_descriptor.cmake",
+          "CMAKE_VERBOSE_MAKEFILE" : "ON",
+          "BOARD_NUCLEO": "OFF",
+          "DUMP_ASM": "OFF",
+          "MCU_TYPE": "F105R8"
+        } 
+      },
+      "Debug F105R8 Active low": {
+        "short": "Debug F105R8 Active low",
+        "buildType": "Debug",
+        "settings" : {
+          "CMAKE_TOOLCHAIN_FILE": "tools_descriptor.cmake",
+          "CMAKE_VERBOSE_MAKEFILE" : "ON",
+          "BOARD_NUCLEO": "OFF",
+          "DUMP_ASM": "OFF",
+          "USB_POWER_HIGH": "OFF",
+          "MCU_TYPE": "F105R8"
+        } 
+      },
+      "Debug F105R8 NUCLEO": {
+        "short": "Debug F105R8 NUCLEO",
+        "buildType": "Debug",
+        "settings" : {
+          "CMAKE_TOOLCHAIN_FILE": "tools_descriptor.cmake",
+          "CMAKE_VERBOSE_MAKEFILE" : "ON",
+          "BOARD_NUCLEO": "ON",
+          "DUMP_ASM": "OFF",
+          "MCU_TYPE": "F105R8"
+        } 
+      },
+      "Release F105R8": {
+        "short": "Release F105R8",
+        "buildType": "Release",
+        "settings" : {
+          "CMAKE_TOOLCHAIN_FILE": "tools_descriptor.cmake",
+          "CMAKE_VERBOSE_MAKEFILE" : "ON",
+          "BOARD_NUCLEO": "OFF",
+          "DUMP_ASM": "OFF",
+          "MCU_TYPE": "F105R8"
+        } 
+      },
+      "Release F105R8 Active low": {
+        "short": "Release F105R Active low",
+        "buildType": "Release",
+        "settings" : {
+          "CMAKE_TOOLCHAIN_FILE": "tools_descriptor.cmake",
+          "CMAKE_VERBOSE_MAKEFILE" : "ON",
+          "BOARD_NUCLEO": "OFF",
+          "DUMP_ASM": "OFF",
+          "USB_POWER_HIGH": "OFF",
+          "MCU_TYPE": "F105R8"
+        } 
+      },
+      "Release F105R8 NUCLEO": {
+        "short": "Release F105R8 NUCLEO",
+        "buildType": "Release",
+        "settings" : {
+          "CMAKE_TOOLCHAIN_FILE": "tools_descriptor.cmake",
+          "CMAKE_VERBOSE_MAKEFILE" : "ON",
+          "BOARD_NUCLEO": "ON",
+          "DUMP_ASM": "OFF",
+          "MCU_TYPE": "F105R8"
+        } 
+      },
+      "Debug F105RB": {
+        "short": "Debug F105RB",
+        "buildType": "Debug",
+        "settings" : {
+          "CMAKE_TOOLCHAIN_FILE": "tools_descriptor.cmake",
+          "CMAKE_VERBOSE_MAKEFILE" : "ON",
+          "BOARD_NUCLEO": "OFF",
+          "DUMP_ASM": "OFF",
+          "MCU_TYPE": "F105RB"
+        } 
+      },
+      "Debug F105RB Active low": {
+        "short": "Debug F105RB Active low",
+        "buildType": "Debug",
+        "settings" : {
+          "CMAKE_TOOLCHAIN_FILE": "tools_descriptor.cmake",
+          "CMAKE_VERBOSE_MAKEFILE" : "ON",
+          "BOARD_NUCLEO": "OFF",
+          "DUMP_ASM": "OFF",
+          "USB_POWER_HIGH": "OFF",
+          "MCU_TYPE": "F105RB"
+        } 
+      },
+      "Debug F105RB NUCLEO": {
+        "short": "Debug F105RB NUCLEO",
+        "buildType": "Debug",
+        "settings" : {
+          "CMAKE_TOOLCHAIN_FILE": "tools_descriptor.cmake",
+          "CMAKE_VERBOSE_MAKEFILE" : "ON",
+          "BOARD_NUCLEO": "ON",
+          "DUMP_ASM": "OFF",
+          "MCU_TYPE": "F105RB"
+        } 
+      },
+      "Release F105RB": {
+        "short": "Release F105RB",
+        "buildType": "Release",
+        "settings" : {
+          "CMAKE_TOOLCHAIN_FILE": "tools_descriptor.cmake",
+          "CMAKE_VERBOSE_MAKEFILE" : "ON",
+          "BOARD_NUCLEO": "OFF",
+          "DUMP_ASM": "OFF",
+          "MCU_TYPE": "F105RB"
+        } 
+      },
+      "Release F105RB Active low": {
+        "short": "Release F105RB Active low",
+        "buildType": "Release",
+        "settings" : {
+          "CMAKE_TOOLCHAIN_FILE": "tools_descriptor.cmake",
+          "CMAKE_VERBOSE_MAKEFILE" : "ON",
+          "BOARD_NUCLEO": "OFF",
+          "DUMP_ASM": "OFF",
+          "USB_POWER_HIGH": "OFF",
+          "MCU_TYPE": "F105RB"
+        } 
+      },
+      "Release F105RB NUCLEO": {
+        "short": "Release F105RB NUCLEO",
+        "buildType": "Release",
+        "settings" : {
+          "CMAKE_TOOLCHAIN_FILE": "tools_descriptor.cmake",
+          "CMAKE_VERBOSE_MAKEFILE" : "ON",
+          "BOARD_NUCLEO": "ON",
+          "DUMP_ASM": "OFF",
+          "MCU_TYPE": "F105RB"
+        } 
+      },
+      "Debug F105RC": {
+        "short": "Debug F105RC",
+        "buildType": "Debug",
+        "settings" : {
+          "CMAKE_TOOLCHAIN_FILE": "tools_descriptor.cmake",
+          "CMAKE_VERBOSE_MAKEFILE" : "ON",
+          "BOARD_NUCLEO": "OFF",
+          "DUMP_ASM": "OFF",
+          "MCU_TYPE": "F105RC"
+        } 
+      },
+      "Debug F105RC Active low": {
+        "short": "Debug F105RC Active low",
+        "buildType": "Debug",
+        "settings" : {
+          "CMAKE_TOOLCHAIN_FILE": "tools_descriptor.cmake",
+          "CMAKE_VERBOSE_MAKEFILE" : "ON",
+          "BOARD_NUCLEO": "OFF",
+          "DUMP_ASM": "OFF",
+          "USB_POWER_HIGH": "OFF",
+          "MCU_TYPE": "F105RC"
+        } 
+      },
+      "Debug F105RC NUCLEO": {
+        "short": "Debug F105RC NUCLEO",
+        "buildType": "Debug",
+        "settings" : {
+          "CMAKE_TOOLCHAIN_FILE": "tools_descriptor.cmake",
+          "CMAKE_VERBOSE_MAKEFILE" : "ON",
+          "BOARD_NUCLEO": "ON",
+          "DUMP_ASM": "OFF",
+          "MCU_TYPE": "F105RC"
+        } 
+      },
+      "Release F105RC": {
+        "short": "Release F105RC",
+        "buildType": "Release",
+        "settings" : {
+          "CMAKE_TOOLCHAIN_FILE": "tools_descriptor.cmake",
+          "CMAKE_VERBOSE_MAKEFILE" : "ON",
+          "BOARD_NUCLEO": "OFF",
+          "DUMP_ASM": "OFF",
+          "MCU_TYPE": "F105RC"
+        } 
+      },
+      "Release F105RC Active low": {
+        "short": "Release F105RC Active low",
+        "buildType": "Release",
+        "settings" : {
+          "CMAKE_TOOLCHAIN_FILE": "tools_descriptor.cmake",
+          "CMAKE_VERBOSE_MAKEFILE" : "ON",
+          "BOARD_NUCLEO": "OFF",
+          "DUMP_ASM": "OFF",
+          "USB_POWER_HIGH": "OFF",
+          "MCU_TYPE": "F105RC"
+        } 
+      },
+      "Release F105RC NUCLEO": {
+        "short": "Release F105RC NUCLEO",
+        "buildType": "Release",
+        "settings" : {
+          "CMAKE_TOOLCHAIN_FILE": "tools_descriptor.cmake",
+          "CMAKE_VERBOSE_MAKEFILE" : "ON",
+          "BOARD_NUCLEO": "ON",
+          "DUMP_ASM": "OFF",
+          "MCU_TYPE": "F105RC"
+        } 
+      },
+      "Debug F107RB": {
+        "short": "Debug F107RB",
+        "buildType": "Debug",
+        "settings" : {
+          "CMAKE_TOOLCHAIN_FILE": "tools_descriptor.cmake",
+          "CMAKE_VERBOSE_MAKEFILE" : "ON",
+          "BOARD_NUCLEO": "OFF",
+          "DUMP_ASM": "OFF",
+          "MCU_TYPE": "F107RB"
+        } 
+      },
+      "Debug F107RB Active low": {
+        "short": "Debug F107RB Active low",
+        "buildType": "Debug",
+        "settings" : {
+          "CMAKE_TOOLCHAIN_FILE": "tools_descriptor.cmake",
+          "CMAKE_VERBOSE_MAKEFILE" : "ON",
+          "BOARD_NUCLEO": "OFF",
+          "DUMP_ASM": "OFF",
+          "USB_POWER_HIGH": "OFF",
+          "MCU_TYPE": "F107RB"
+        } 
+      },
+      "Debug F107RB NUCLEO": {
+        "short": "Debug F107RB NUCLEO",
+        "buildType": "Debug",
+        "settings" : {
+          "CMAKE_TOOLCHAIN_FILE": "tools_descriptor.cmake",
+          "CMAKE_VERBOSE_MAKEFILE" : "ON",
+          "BOARD_NUCLEO": "ON",
+          "DUMP_ASM": "OFF",
+          "MCU_TYPE": "F107RB"
+        } 
+      },
+      "Release F107RB": {
+        "short": "Release F107RB",
+        "buildType": "Release",
+        "settings" : {
+          "CMAKE_TOOLCHAIN_FILE": "tools_descriptor.cmake",
+          "CMAKE_VERBOSE_MAKEFILE" : "ON",
+          "BOARD_NUCLEO": "OFF",
+          "DUMP_ASM": "OFF",
+          "MCU_TYPE": "F107RB"
+        } 
+      },
+      "Release F107RB Active low": {
+        "short": "Release F107RB Active low",
+        "buildType": "Release",
+        "settings" : {
+          "CMAKE_TOOLCHAIN_FILE": "tools_descriptor.cmake",
+          "CMAKE_VERBOSE_MAKEFILE" : "ON",
+          "BOARD_NUCLEO": "OFF",
+          "DUMP_ASM": "OFF",
+          "USB_POWER_HIGH": "OFF",
+          "MCU_TYPE": "F107RB"
+        } 
+      },
+      "Release F107RB NUCLEO": {
+        "short": "Release F107RB NUCLEO",
+        "buildType": "Release",
+        "settings" : {
+          "CMAKE_TOOLCHAIN_FILE": "tools_descriptor.cmake",
+          "BOARD_NUCLEO": "ON",
+          "CMAKE_VERBOSE_MAKEFILE" : "ON",
+          "DUMP_ASM": "OFF",
+          "MCU_TYPE": "F107RB"
+        } 
+      },
+      "Debug F107RC": {
+        "short": "Debug F107RC",
+        "buildType": "Debug",
+        "settings" : {
+          "CMAKE_TOOLCHAIN_FILE": "tools_descriptor.cmake",
+          "BOARD_NUCLEO": "OFF",
+          "CMAKE_VERBOSE_MAKEFILE" : "ON",
+          "DUMP_ASM": "OFF",
+          "MCU_TYPE": "F107RC"
+        } 
+      },
+      "Debug F107RC Active low": {
+        "short": "Debug F107RC Active low",
+        "buildType": "Debug",
+        "settings" : {
+          "CMAKE_TOOLCHAIN_FILE": "tools_descriptor.cmake",
+          "CMAKE_VERBOSE_MAKEFILE" : "ON",
+          "BOARD_NUCLEO": "OFF",
+          "DUMP_ASM": "OFF",
+          "USB_POWER_HIGH": "OFF",
+          "MCU_TYPE": "F107RC"
+        } 
+      },
+      "Debug F107RC NUCLEO": {
+        "short": "Debug F107RC NUCLEO",
+        "buildType": "Debug",
+        "settings" : {
+          "CMAKE_TOOLCHAIN_FILE": "tools_descriptor.cmake",
+          "CMAKE_VERBOSE_MAKEFILE" : "ON",
+          "MCU_TYPE": "F107RC",
+          "BOARD_NUCLEO": "ON",
+          "DUMP_ASM": "OFF"
+        }
+      },
+      "Release F107RC": {
+        "short": "Release F107RC",
+        "buildType": "Release",
+        "settings" : {
+          "CMAKE_TOOLCHAIN_FILE": "tools_descriptor.cmake",
+          "BOARD_NUCLEO": "OFF",
+          "CMAKE_VERBOSE_MAKEFILE" : "ON",
+          "DUMP_ASM": "OFF",
+          "MCU_TYPE": "F107RC"
+        } 
+      },
+      "Release F107RC Active low": {
+        "short": "Release F107RC Active low",
+        "buildType": "Release",
+        "settings" : {
+          "CMAKE_TOOLCHAIN_FILE": "tools_descriptor.cmake",
+          "CMAKE_VERBOSE_MAKEFILE" : "ON",
+          "BOARD_NUCLEO": "OFF",
+          "DUMP_ASM": "OFF",
+          "USB_POWER_HIGH": "OFF",
+          "MCU_TYPE": "F107RC"
+        } 
+      },
+      "Release F107RC NUCLEO": {
+        "short": "Release F107RC NUCLEO",
+        "buildType": "Release",
+        "settings" : {
+          "CMAKE_TOOLCHAIN_FILE": "tools_descriptor.cmake",
+          "CMAKE_VERBOSE_MAKEFILE" : "ON",
+          "MCU_TYPE": "F107RC",
+          "BOARD_NUCLEO": "ON",
+          "DUMP_ASM": "OFF"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "configurations": [
+    {
+      "cwd": "${workspaceRoot}",
+      "executable": "${command:cmake.buildDirectory}/zxkeyboard.elf",
+      "name": "Debug with OpenOCD",
+      "request": "launch",
+      "type": "cortex-debug",
+      "servertype": "openocd",
+      "preLaunchTask": "CMake: upload",
+      "preLaunchCommands": [ "load", "enable breakpoint", "monitor reset" ],
+      "postLaunchCommands": ["monitor reset halt"],
+      "openOCDLaunchCommands": [
+        "adapter speed 4000"
+      ],
+      "configFiles": [
+        "${workspaceRoot}/openocd.cfg/software_system_reset.cfg"
+      ],
+      "searchDir": [],
+      "runToEntryPoint": "main",
+      "showDevDebugOutput": "raw",
+      "svdFile": "STM32F107.svd",
+      "swoConfig": {
+        "enabled": true,
+        "source": "probe",
+        "swoFrequency": 2000000,
+        "cpuFrequency": 72000000,
+        "swoPort": "5555",
+        "decoders": [
+          {
+            "port": 1,
+            "type": "console",
+            "label": "SWO output",
+            "encoding":"ascii"
+          },
+          {
+            "port": 10,
+            "type": "console",
+            "label": "SWO output",
+            "encoding":"ascii"
+          }
+        ]
+      }
+    }
+  ]
+}
